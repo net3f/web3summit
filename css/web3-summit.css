@@ -1,0 +1,411 @@
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.header {
+  display: block;
+  width: 90vw;
+  height: 50px;
+  margin-top: 32px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.header_title {
+  position: static;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  height: 50px;
+}
+
+.header_location {
+  position: static;
+  top: 0px;
+  right: -60%;
+  display: none;
+  width: 200px;
+  height: 100px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.header_text {
+  position: static;
+  right: 50%;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.column-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row {
+  width: 100%;
+}
+
+.background {
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url('../images/comingsoon2.gif');
+  background-position: 0px 0px;
+  background-size: 700px;
+  background-repeat: repeat-y;
+}
+
+.img_funkhaus {
+  position: static;
+  top: 10%;
+  right: -40%;
+  display: block;
+  width: 600px;
+  height: 400px;
+  background-image: url('../images/Funkhaus_Berlin_B_Saal1_studio_Interior_2015_sm-19.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-transform: rotateX(37deg) rotateY(-40deg) rotateZ(-3deg);
+  transform: rotateX(37deg) rotateY(-40deg) rotateZ(-3deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.web3_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  height: 80%;
+  margin-top: 32px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.web3_title_text {
+  width: 700px;
+}
+
+.text-block {
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 122px;
+  line-height: 100px;
+}
+
+.text_tnr_large {
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 122px;
+  line-height: 100px;
+}
+
+.text_tnr_small {
+  position: static;
+  left: 244px;
+  top: -40px;
+  right: -218px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.text_tnr_small.contact {
+  position: static;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.text_tnr_small.date {
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.text_tnr_small.copy {
+  position: static;
+  margin-bottom: 90px;
+  padding-top: 60px;
+  font-size: 21px;
+  line-height: 23px;
+}
+
+.funkhaus_div {
+  display: none;
+  width: 95vw;
+  height: 85vh;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-perspective: 1304px;
+  perspective: 1304px;
+}
+
+.img_gif {
+  position: relative;
+  top: 25%;
+  right: -40%;
+  display: none;
+  width: 400px;
+  height: 400px;
+  background-image: url('../images/giphy.gif');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+.animation_comingsoon {
+  width: 800px;
+  height: 100vh;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.bg_ticker {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -2;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-block {
+  width: 100%;
+  height: 30px;
+  background-image: url('../images/comingsoon3.gif'), -webkit-linear-gradient(270deg, red, red);
+  background-image: url('../images/comingsoon3.gif'), linear-gradient(180deg, red, red);
+  background-position: 0px 0px, 0px 0px;
+  background-size: 200px, auto;
+}
+
+.ticker {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-image: url('../images/comingsoon3.gif'), -webkit-linear-gradient(270deg, #ff0a0a, #ff0a0a);
+  background-image: url('../images/comingsoon3.gif'), linear-gradient(180deg, #ff0a0a, #ff0a0a);
+  background-position: 50% 50%, 0px 0px;
+  background-size: contain, auto;
+  background-repeat: repeat-x, repeat;
+  background-attachment: scroll, scroll;
+}
+
+.ticker._2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.ticker._3 {
+  position: static;
+  left: 733px;
+  top: 367px;
+  right: -101px;
+  bottom: -8px;
+  width: 30px;
+  height: 100vh;
+}
+
+.link {
+  color: #000;
+}
+
+.link-2 {
+  color: #000;
+}
+
+.link-3 {
+  color: #000;
+}
+
+.link-4 {
+  color: #000;
+}
+
+.link-5 {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .background {
+    background-image: -webkit-linear-gradient(270deg, #fff 3%, hsla(0, 0%, 100%, 0) 48%), url('../images/comingsoon2.gif'), -webkit-radial-gradient(circle farthest-corner at 50% 50%, #fff 23%, hsla(0, 0%, 100%, 0) 90%);
+    background-image: linear-gradient(180deg, #fff 3%, hsla(0, 0%, 100%, 0) 48%), url('../images/comingsoon2.gif'), radial-gradient(circle farthest-corner at 50% 50%, #fff 23%, hsla(0, 0%, 100%, 0) 90%);
+    background-position: 0px 0px, 70% 50%, 0px 0px;
+    background-size: auto, 300px, auto;
+    background-repeat: repeat, repeat-y, repeat;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin-top: 0px;
+  }
+  .background {
+    background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 56%), url('../images/comingsoon2.gif');
+    background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 56%), url('../images/comingsoon2.gif');
+    background-position: 0px 0px, 102% 50%;
+    background-size: auto, 300px;
+    background-repeat: repeat, repeat-y;
+  }
+  .text_tnr_small.copy {
+    margin-bottom: 32px;
+    padding-top: 32px;
+  }
+  .funkhaus_div {
+    height: 100vh;
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 479px) {
+  .header {
+    height: 32px;
+  }
+  .header_title {
+    height: 50px;
+  }
+  .header_location {
+    position: static;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .background {
+    background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, #fff 23%, hsla(0, 0%, 100%, 0) 90%), url('../images/comingsoon1.gif');
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #fff 23%, hsla(0, 0%, 100%, 0) 90%), url('../images/comingsoon1.gif');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, 256px;
+    background-repeat: repeat, repeat;
+  }
+  .text_tnr_small {
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: 36px;
+  }
+  .text_tnr_small.contact {
+    margin-top: 16px;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .text_tnr_small.date {
+    margin-top: 0px;
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .text_tnr_small.copy {
+    margin-bottom: 32px;
+    padding-top: 32px;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .funkhaus_div {
+    height: 100vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0.5;
+  }
+  .bold-text {
+    font-size: 40px;
+  }
+}
+
